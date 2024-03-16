@@ -1,0 +1,44 @@
+.mb-3{
+    padding: 3vh 5vh 5vh 5vh;
+    text-align: center;
+}
+
+#first-one{
+    margin-top: 0px;
+}
+
+.form-control{
+    margin-top: 2vh;
+    width: 70%;
+    height: 3vh;
+}
+
+.form-control2{
+    margin-top: 2vh;
+    width: 70%;
+    height: 3vh;
+}
+
+#inpBox{
+    height: 25vh;
+}
+
+#submit-btn{
+    margin-top: 1vh;
+}
+
+.last-elem{
+    color: white;
+    background-color: brown;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-elem p{
+    margin-right: 10px;
+    padding: 0px 4px 2px 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+}

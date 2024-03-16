@@ -1,0 +1,185 @@
+.secondSec{
+    height: 200h;
+    display: flex;
+    margin: 10vh;
+    margin-top: 2vh;
+}
+
+.firstMainBox{
+    width: 50%;
+}
+
+.firstMainBox p{
+    margin-top: 1.5vh;
+    margin-right: 2vw;
+}
+
+.secondMainBox{
+    width: 50%;
+}
+
+.secondMainBox p{
+    margin: 1.5vh;
+    margin-left: 2vw;
+}
+
+.end{
+    /* height: 361px; */
+    background-color: rgb(243, 245, 187);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+    background-blend-mode: darken;
+    bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.firstContact{
+    height: 70%;
+    width: 100%;
+    margin-top: 18vh;
+    display: flex;
+    align-items: center;
+}
+
+.firstColumn{
+    margin-left: 7vw;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    color: black;
+}
+
+
+.imge{
+    height: 18vh;
+    /* border-radius: 50%; */
+    border: 5px solid black;
+    margin-bottom: 0.5vh;
+}
+
+.secondContact{
+    height: 10%;
+    background-color: rgb(0, 0, 65);
+    /* margin-top: 24px; */
+    position: relative;
+    bottom: 0px;
+}
+
+.leftSide{
+    width: 100%;
+    color: white;
+}
+
+.icon{
+    width: 2vw;
+    border-radius: 50%;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    width: 20vw;
+}
+
+.phone p:hover{
+    color: black;
+}
+
+.secondColumn{
+    width: 30%;
+    text-align: center;
+    margin-left: 6vw;
+    color: black;
+}
+
+.fbtn{
+    border: 3px solid black;
+    margin: 2vh;
+    height: 2vw;
+    padding-top: 0.6vh;
+    font-weight: 500;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fbtn:hover{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+}
+
+.thirdColumn{
+    width: 35%;
+    text-align: center;
+    /* margin-left: 6vw; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerforButtons{
+    margin: 0.5vw;
+}
+
+.facebook{
+    width: 4vw;
+    filter: invert(100%);
+}
+
+.instagram{
+    width: 4.6vw;
+    filter: invert(100%);
+}
+
+.twitter{
+    width: 3.7vw;
+    filter: invert(100%);
+}
+
+.facebook:hover{
+    filter: invert(0%);
+}
+
+.instagram:hover{
+    filter: invert(0%);
+}
+
+.twitter:hover{
+    filter: invert(0%);
+}
+
+/* last part is given below */
+
+.mainoflast{
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    color: white;
+}
+
+.mainoflast p{
+    margin-right: 1vw;
+}
+
+.border{
+    margin-top: 0vh;
+    text-align: center;
+    padding: 0.2vh;
+    width: 0.5vw;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 0.5vh;
+    padding-bottom: 2vh;
+    position: relative;
+    bottom: 0.2vh;
+}
+
+#services{
+    padding-top: 110px;
+}

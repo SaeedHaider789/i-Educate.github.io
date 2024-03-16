@@ -1,0 +1,106 @@
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin:3px 3px
+}
+
+
+@media only screen and (max-width: 500px) {
+    body{
+        background-color: white;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        transition: all 0.1s ease-out;
+    } 
+    .logo{
+        margin-left: 0px;
+    } 
+    .nav-bar{
+        width: 100vw;
+        height: 170px;
+        transition: all 0.1s ease-out;
+    }
+    .burger{
+        display: block;
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 0px 10px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #cont{
+        margin-bottom: 5px;
+    }
+    .logo img{
+        width: 40px;  /* 62vw*/
+        border: 3px solid white;
+        border-radius: 50%;
+    }
+    .h-nav-resp{
+        height: 50px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        top: -10vh;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .firstHalf{
+        height: 270px;
+        width: 90%;
+    }
+    .secondHalf{
+        width: 90%;
+    }
+    .secondHalf img{
+        width: 60vw;
+    }
+    .hello{
+        flex-direction: column;
+    }
+    .secondSec{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .firstMainBox, .secondMainBox{
+        width: 100%;
+    }
+    .space{
+        height: 40px;
+    }
+    #services{
+        padding-top: 40px;
+    }
+    .textbig{
+        font-size: 19px;
+    }
+    .text-small{
+        font-size: 8px;
+    }
+    .btn{
+        font-size: 3vw;
+    }
+    #textBig{
+        font-size: 17px;
+    }
+}
